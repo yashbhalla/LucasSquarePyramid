@@ -7,7 +7,7 @@ Through experimentation, we determined that a work unit size of chunkSize based 
 
 Here, the chunk size is computed by dividing the total range n by the number of workers. We ensure that the chunk size is at least 1 using .max(1) to handle cases where there are fewer numbers than workers.
 
-Code: let chunkSize = (nBoss / workerCount.u64()).max(1)
+**Code:** *let chunkSize = (nBoss / workerCount.u64()).max(1)*
 
 The optimal chunk size can vary based on the problem size and the number of workers. For this implementation, ensuring that the work unit size is neither too small nor too large relative to the number of workers and problem size leads to effective parallel processing and efficient performance.
 
@@ -30,9 +30,9 @@ To calculate the CPU ratio,
         System Time = 0.00 s
         Total Time = 0.01 s
   Hence, CPU Ratio = (0.03 + 0.00) / 0.01 = 3
-This indicates that the CPU time used is three times the real time, which suggests that the program is utilizing more than one core effectively.
+This indicates that the **CPU time used is three times the real time**, which suggests that the program is utilizing more than one core effectively.
 
-NOTE: We can also see in the image provided above that CPU usage is given as 301%, indicating CPU usage being three times the real time.
+NOTE: We can also see in the image provided above that **CPU usage is given as 301%**, indicating CPU usage being three times the real time.
 
 ### 4. Largest Problem Solved on a Single Machine:  lukas 1000000000 30
 
@@ -40,7 +40,7 @@ Below is the result of running Lucas with N = 1000000000 and k = 30:
 
 <img width="710" alt="image" src="https://github.com/user-attachments/assets/8ccd8c16-9365-43c7-963f-d09f741056a1">
 
-Here, the CPU usage is given as 396%, indicating CPU usage being approximately four times the real time and utilizing more than one core effectively.
+Here, the **CPU usage is given as 396%**, indicating **CPU usage being approximately four times the real time** and utilizing more than one core effectively.
 
 
 
