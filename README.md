@@ -13,11 +13,13 @@ The optimal chunk size can vary based on the problem size and the number of work
 ### 2. Result of running: lukas 1000000 4
 
 Below is the result of running Lucas with N = 1000000 and k = 4:
+
 <img width="645" alt="Result of running ./LucasSquarePyramid 1000000 4" src="https://github.com/user-attachments/assets/9d62e6a9-ff91-4f13-bee5-915702e6ed37">
 
 ### 3. CPU Ratio of running: lukas 1000000 4
 
 Below is the result of running Lucas with N = 1000000 and k = 4:
+
 <img width="721" alt="Result of running  time ./LucasSquarePyramid 1000000 4" src="https://github.com/user-attachments/assets/d1d3af1f-b3fd-4734-8982-db6e75b096fe">
 
 To calculate the CPU ratio,
@@ -34,6 +36,7 @@ NOTE: We can also see in the image provided above that CPU usage is given as 301
 ### 4. Largest Problem Solved on a Single Machine:  lukas 1000000000 30
 
 Below is the result of running Lucas with N = 1000000000 and k = 30:
+
 <img width="710" alt="image" src="https://github.com/user-attachments/assets/8ccd8c16-9365-43c7-963f-d09f741056a1">
 
 Here, the CPU usage is given as 396%, indicating CPU usage being approximately four times the real time and utilizing more than one core effectively.
