@@ -1,6 +1,6 @@
-# Lucas Square Pyramid
+# Project 1: Lucas Square Pyramid (COP5615)
 
-### The following project has been developed by Shrey Gupta and Yash Bhalla for Project 1: Lucas Square Pyramid (COP5615).
+### The following project has been developed by Shrey Gupta and Yash Bhalla 
 
 ### 1. Optimal Size of the Work Unit
 Through experimentation, we determined that a work unit size of chunkSize based on the formula (n / workerCount).max(1) provides the best performance for our implementation. This size was chosen because it optimizes the balance between parallel processing and individual worker workload.
