@@ -1,4 +1,4 @@
-# Project 1: Lucas Square Pyramid (COP5615)
+# Lucas Square Pyramid
 
 ### The following project has been developed by Shrey Gupta and Yash Bhalla 
 
