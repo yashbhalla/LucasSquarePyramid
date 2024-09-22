@@ -1,7 +1,5 @@
 # Lucas Square Pyramid
 
-### The following project has been developed by Shrey Gupta and Yash Bhalla 
-
 We experimented with Pony Lang to build a parallelized solution for the Lucas Square Pyramid, leveraging its actor model for efficient concurrency and optimized performance by tuning the workload chunk size per worker. Through this, we explored Pony's capability in handling large computations with minimal overhead.
 
 ### 1. Optimal Size of the Work Unit
